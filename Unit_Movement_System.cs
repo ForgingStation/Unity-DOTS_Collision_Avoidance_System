@@ -87,7 +87,7 @@ public class Unit_Movement_System : SystemBase
                 }
             }).ScheduleParallel();*/
 
-        //Resolve nearet collision
+        //Resolve nearest collision
         NativeMultiHashMap<int, float3> cellVsEntityPositionsForJob = cellVsEntityPositions;
         Entities
             .WithReadOnly(cellVsEntityPositionsForJob)
